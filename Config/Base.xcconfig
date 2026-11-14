@@ -1,0 +1,13 @@
+// CarKeeper 公共构建配置（进仓库）
+//
+// 个人私有信息（签名 Team、Bundle Identifier）放在同目录的 Local.xcconfig 里，
+// 该文件已被 .gitignore 忽略，不会提交。
+//
+// 第一次拉仓库后的准备：
+//   cp Config/Local.xcconfig.example Config/Local.xcconfig
+// 然后把自己的 Team ID 与 Bundle Identifier 填进去。
+
+// 没有 Local.xcconfig 时的兜底值，保证工程能直接编译
+PRODUCT_BUNDLE_IDENTIFIER = com.example.CarKeeper
+
+#include? "Local.xcconfig"

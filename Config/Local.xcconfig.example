@@ -1,0 +1,8 @@
+// 复制本文件为 Local.xcconfig 后填写自己的信息（Local.xcconfig 不进仓库）
+//   cp Config/Local.xcconfig.example Config/Local.xcconfig
+
+// Apple 开发者 Team ID（Xcode → Settings → Accounts 里可见，10 位）
+DEVELOPMENT_TEAM = YOURTEAMID
+
+// 自己的 Bundle Identifier，真机安装必须有唯一值
+PRODUCT_BUNDLE_IDENTIFIER = com.yourname.CarKeeper

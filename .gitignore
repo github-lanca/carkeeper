@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Xcode 构建产物
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+
+# 本地签名与重签脚本（含设备 UDID、描述文件、本机路径）
+.renew/
+renew.sh
+
+# 本机私有构建配置（Team ID、Bundle Identifier）
+Config/Local.xcconfig
+
+# 真机/模拟器截图与设计过程稿（含真实车辆与保单信息）
+Screenshots/
+IconDrafts/
+
+# 其他
+*.log
